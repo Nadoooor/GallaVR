@@ -6,10 +6,11 @@
             <script src="https://cdn.jsdelivr.net/gh/c-frame/aframe-physics-system@v4.2.3/dist/aframe-physics-system.js"></script>
             <script src="https://cdn.jsdelivr.net/gh/c-frame/aframe-extras@7.6.0/dist/aframe-extras.min.js"></script>
             <!-- <script src="https://cdn.jsdelivr.net/gh/c-frame/aframe-editor@1.7.x/dist/aframe-editor.min.js"></script>  -->
+<script src="https://cdn.rawgit.com/mrturck/aframe-joystick/master/joystick.min.js"></script>
              <script src="grap.js"></script>
         </head>
          <body> 
-            <a-scene obb-collider="showColliders: false" physics=" driver: ammo; debug: false; debugDrawMode: 1;">
+            <a-scene joystick obb-collider="showColliders: false" physics=" driver: ammo; debug: false; debugDrawMode: 1;">
 
            <a-assets>
             <a-asset-item id="SnakeHunter" src="here.glb"></a-asset-item>
